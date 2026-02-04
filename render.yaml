@@ -3,7 +3,7 @@ services:
     name: mcp
     runtime: node
     plan: free
-    buildCommand: npm install
+    buildCommand: yarn install
     startCommand: node app.js
     envVars:
       - key: NODE_ENV
