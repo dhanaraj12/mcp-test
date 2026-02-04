@@ -6,7 +6,12 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-     "express": "^5.0.0"
+     "@google/generative-ai": "^0.24.1",
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "yahoo-finance2": "^3.13.0"
   }
 }
