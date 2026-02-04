@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: express-hello-world
+    name: mcp
     runtime: node
     plan: free
-    buildCommand: yarn install
+    buildCommand: npm install
     startCommand: node app.js
     envVars:
       - key: NODE_ENV
